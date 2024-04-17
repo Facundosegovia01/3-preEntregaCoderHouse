@@ -1,0 +1,528 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fuente/static/OpenSans-Bold.ttf);
+  font-weight: bold;
+  font-size: bold;
+}
+.body {
+  font-family: "Open Sans";
+  background-color: #242422;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* media queries */
+@media (max-width: 992px) {
+  .img-cambia-vende img {
+    display: none;
+  }
+  .img-financia img {
+    display: none;
+  }
+}
+header {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-brand img {
+  display: flex;
+  width: 400px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.nav-link {
+  transition: 0, 5s;
+  border-radius: 25px;
+}
+
+.nav-item:hover {
+  background-color: #191919;
+  border-radius: 25px;
+}
+
+.carousel-item {
+  height: 350px;
+}
+
+.carousel-item.active {
+  height: 350px;
+}
+
+.carousel img {
+  height: 100%;
+}
+
+.navbar-brand img {
+  width: 300px;
+  height: 60px;
+}
+
+.tituloindex h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.tituloindex p {
+  display: flex;
+  font-size: 20px;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.tituloindex h2:hover {
+  transform: scale(0.6);
+  transition: 0.5s;
+}
+
+/* card vende tu auto */
+.cambiaovende {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 20px;
+  gap: 20px;
+}
+
+.cambiaovende, .img-cambia-vende {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #2fb4cc;
+}
+
+.art-cambiaovende {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background-color: #2fb4cc;
+  cursor: default;
+}
+
+.cambiaovende .art-cambiaovende a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  justify-content: center;
+}
+
+.cambiaovende .art-cambiaovende a:hover {
+  background-color: #544c54;
+  color: #fff;
+}
+
+.cambiaovende .art-cambiaovende {
+  padding: 15px;
+  text-align: center;
+}
+
+.cambiaovende .art-cambiaovende h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.cambiaovende .art-cambiaovende p {
+  line-height: 1.5;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.cambiaovende:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+/* cards index */
+.cardcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 20px;
+  gap: 20px;
+}
+
+.car {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.car img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.car div {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.car .contenidocard {
+  padding: 15px;
+  text-align: center;
+}
+
+.car .contenidocard p {
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.car .contenidocard h3 {
+  font-weight: 400px;
+  margin-bottom: 15px;
+}
+
+.car .contenidocard a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.car .contenidocard a:hover {
+  background-color: #2fb4cc;
+  color: #fff;
+}
+
+.car:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.car .contenidocard h3 {
+  font-size: 30px;
+  color: black;
+}
+
+/* card financia */
+.financia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 20px;
+  gap: 20px;
+}
+
+.financia, .img-financia {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.art-financia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  cursor: default;
+}
+
+.financia .art-financia a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  justify-content: center;
+}
+
+.financia .art-financia a:hover {
+  background-color: #2fb4cc;
+  color: #fff;
+}
+
+.financia .art-financia {
+  padding: 15px;
+  text-align: center;
+}
+
+.financia .art-financia h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.financia .art-financia p {
+  line-height: 1.5;
+  color: black;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.img-financia {
+  display: flex;
+  align-items: end;
+}
+
+/* imgindex */
+.imgauto {
+  display: flex;
+  height: 300px;
+  object-fit: cover;
+  gap: 10px;
+}
+
+.imgindex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tituloabout {
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  margin-top: 40px;
+}
+
+.info {
+  padding: 10%;
+  background-color: #242422;
+}
+
+.info h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin: 30px;
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  vertical-align: top;
+  width: 100%;
+  background-color: rgba(2, 2, 2, 0.1019607843);
+}
+
+.info article {
+  width: 100%;
+  padding: 20px;
+  white-space: break-spaces;
+}
+
+.info p {
+  padding: 20px;
+  text-align: center;
+}
+
+.tituloproducto h1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+/* contacto */
+.contact label {
+  color: #fff;
+}
+
+.contact h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 40px;
+}
+
+.contact a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* login */
+.titulologin h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.login h1 {
+  color: #fff;
+  font-size: 35px;
+}
+
+.login {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #242422;
+  background-size: cover;
+}
+
+.form {
+  position: relative;
+  max-width: 400px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: radius 20px;
+  backdrop-filter: blur(55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+.inputbox input {
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 35px 0 5px;
+  color: #fff;
+}
+
+.inputbox ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2px;
+  cursor: pointer;
+}
+
+.forget {
+  margin: 35px 0;
+  font-size: 0.85rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  max-width: 310px;
+  border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+}
+
+.forget label {
+  display: flex;
+  align-items: center;
+}
+
+.forget label input {
+  margin-right: 3px;
+}
+
+.forget a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forget a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.register {
+  font-size: 0.9rem;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+.register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

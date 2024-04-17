@@ -1,0 +1,39 @@
+.tituloabout {
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    margin-top: 40px;
+
+}
+
+.info {
+    padding: 10%;
+    background-color: #242422;
+}
+.info h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 30px;
+    color: #fff;
+}
+
+.info {
+    display: flex;
+    vertical-align: top;
+    width: 100%;
+    background-color: #0202021a;
+}
+
+.info article {
+    width: 100%;
+    padding: 20px;
+    white-space: break-spaces;
+}
+
+.info p {
+    padding: 20px;
+    text-align: center;
+    
+}

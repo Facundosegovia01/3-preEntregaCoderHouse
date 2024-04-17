@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fuente/static/OpenSans-Bold.ttf);
+    font-weight: bold;
+    font-size: bold;
+}
+.body {
+font-family: 'Open Sans';
+    background-color: #242422;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p
+{
+    color:#ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* media queries */
+
+@media (max-width: 992px)  
+{
+    .img-cambia-vende img{
+        display:none;
+    }
+.img-financia img{
+    display: none;
+}
+}
