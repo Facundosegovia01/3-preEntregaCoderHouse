@@ -56,10 +56,12 @@ header {
 
 .carousel-item {
   height: 350px;
+  
 }
 
 .carousel-item.active {
   height: 350px;
+  
 }
 
 .carousel img {
@@ -71,7 +73,7 @@ header {
   height: 60px;
 }
 
-.tituloindex h2 {
+.titulo-index h2 {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -80,33 +82,33 @@ header {
   color: #fff;
 }
 
-.tituloindex p {
+.titulo-index p {
   display: flex;
   font-size: 20px;
   justify-content: flex-start;
   margin-top: 20px;
 }
 
-.tituloindex h2:hover {
+.titulo-index h2:hover {
   transform: scale(0.6);
   transition: 0.5s;
 }
 
 /* card vende tu auto */
-.cambiaovende {
+.cambia-vende {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 20px;
   gap: 20px;
 }
 
-.cambiaovende, .img-cambia-vende {
+.cambia-vende, .img-cambia-vende {
   display: flex;
   justify-content: flex-end;
   background-color: #2fb4cc;
 }
 
-.art-cambiaovende {
+.art-cambia-vende {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +117,7 @@ header {
   cursor: default;
 }
 
-.cambiaovende .art-cambiaovende a {
+.cambia-vende .art-cambia-vende a {
   text-decoration: none;
   display: inline-block;
   padding: 10px;
@@ -128,30 +130,30 @@ header {
   justify-content: center;
 }
 
-.cambiaovende .art-cambiaovende a:hover {
+.cambia-vende .art-cambia-vende a:hover {
   background-color: #544c54;
   color: #fff;
 }
 
-.cambiaovende .art-cambiaovende {
+.cambia-vende .art-cambia-vende {
   padding: 15px;
   text-align: center;
 }
 
-.cambiaovende .art-cambiaovende h2 {
+.cambia-vende .art-cambia-vende h2 {
   font-size: 50px;
   margin-bottom: 50px;
   color: white;
 }
 
-.cambiaovende .art-cambiaovende p {
+.cambia-vende .art-cambia-vende p {
   line-height: 1.5;
   color: white;
   font-size: 25px;
   margin-bottom: 50px;
 }
 
-.cambiaovende:hover {
+.cambia-vende:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3%);
 }
@@ -164,7 +166,7 @@ header {
   gap: 20px;
 }
 
-.car {
+.cardsInfoAuto {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -176,33 +178,33 @@ header {
   transition: all 400ms ease;
 }
 
-.car img {
+.cardsInfoAuto img {
   width: 100%;
   height: 210px;
   object-fit: cover;
 }
 
-.car div {
+.cardsInfoAuto div {
   padding: 20px;
   background-color: #fff;
 }
 
-.car .contenidocard {
+.cardsInfoAuto .contenido-card {
   padding: 15px;
   text-align: center;
 }
 
-.car .contenidocard p {
+.cardsInfoAuto .contenido-card p {
   line-height: 1.5;
   color: #6a6a6a;
 }
 
-.car .contenidocard h3 {
+.cardsInfoAuto .contenido-card h3 {
   font-weight: 400px;
   margin-bottom: 15px;
 }
 
-.car .contenidocard a {
+.cardsInfoAuto .contenido-card a {
   text-decoration: none;
   display: inline-block;
   padding: 10px;
@@ -213,17 +215,17 @@ header {
   transition: all 400ms ease;
 }
 
-.car .contenidocard a:hover {
+.cardsInfoAuto .contenido-card a:hover {
   background-color: #2fb4cc;
   color: #fff;
 }
 
-.car:hover {
+.cardsInfoAuto:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3%);
 }
 
-.car .contenidocard h3 {
+.cardsInfoAuto .contenido-card h3 {
   font-size: 30px;
   color: black;
 }
@@ -300,13 +302,13 @@ header {
   gap: 10px;
 }
 
-.imgindex {
+.img-index {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.tituloabout {
+.titulo-about {
   display: flex;
   justify-content: center;
   font-size: 55px;
@@ -345,7 +347,7 @@ header {
   text-align: center;
 }
 
-.tituloproducto h1 {
+.titulo-producto h1 {
   color: #fff;
   display: flex;
   justify-content: center;
@@ -380,7 +382,7 @@ header {
 }
 
 /* login */
-.titulologin h1 {
+.titulo-login h1 {
   display: flex;
   justify-content: center;
   margin-top: 40px;
