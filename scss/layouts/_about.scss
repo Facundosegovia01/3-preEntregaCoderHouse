@@ -1,36 +1,57 @@
-.tituloabout {
+
+
+.info h1 {
     display: flex;
     justify-content: center;
-    font-size: 55px;
-    margin-top: 40px;
-
-}
-
-.info {
-    padding: 10%;
-    background-color: #242422;
-}
-.info h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    margin: 30px;
+    margin: 40px;
     color: #fff;
+    font-size: 50px;
 }
 
-.info {
-    display: flex;
-    vertical-align: top;
-    width: 100%;
-    background-color: #0202021a;
-}
-
-.info article {
-    width: 100%;
+.card-about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 20px;
-    white-space: break-spaces;
+    gap: 20px;
 }
+
+
+.card-about,.img-card-about {
+    display: flex;
+    justify-content: center;
+    }
+
+.art-card-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    cursor: default;
+}
+
+.card-about .art-card-about{
+    padding: 15px;
+    text-align: center;
+}
+
+.card-about .art-card-about h2 {
+    font-size: 40px;
+    margin: 50px;
+    color: white;
+}
+
+.card-about .art-card-about p {
+    line-height: 1.5;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.img-card-about {
+    display: flex;
+    align-items: center ;
+}
+
 
 .info p {
     padding: 20px;

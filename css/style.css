@@ -31,6 +31,9 @@ h1, h2, h3, h4, h5, h6, p {
   .img-financia img {
     display: none;
   }
+  .img-card-about img {
+    display: none;
+  }
 }
 header {
   width: 100%;
@@ -56,12 +59,10 @@ header {
 
 .carousel-item {
   height: 350px;
-  
 }
 
 .carousel-item.active {
   height: 350px;
-  
 }
 
 .carousel img {
@@ -295,7 +296,7 @@ header {
 }
 
 /* imgindex */
-.imgauto {
+.img-auto {
   display: flex;
   height: 300px;
   object-fit: cover;
@@ -308,38 +309,55 @@ header {
   justify-content: center;
 }
 
-.titulo-about {
+.info h1 {
   display: flex;
   justify-content: center;
-  font-size: 55px;
-  margin-top: 40px;
-}
-
-.info {
-  padding: 10%;
-  background-color: #242422;
-}
-
-.info h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-  margin: 30px;
+  margin: 40px;
   color: #fff;
+  font-size: 50px;
 }
 
-.info {
-  display: flex;
-  vertical-align: top;
-  width: 100%;
-  background-color: rgba(2, 2, 2, 0.1019607843);
-}
-
-.info article {
-  width: 100%;
+.card-about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 20px;
-  white-space: break-spaces;
+  gap: 20px;
+}
+
+.card-about, .img-card-about {
+  display: flex;
+  justify-content: center;
+}
+
+.art-card-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  cursor: default;
+}
+
+.card-about .art-card-about {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-about .art-card-about h2 {
+  font-size: 40px;
+  margin: 50px;
+  color: white;
+}
+
+.card-about .art-card-about p {
+  line-height: 1.5;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.img-card-about {
+  display: flex;
+  align-items: center;
 }
 
 .info p {
@@ -347,7 +365,7 @@ header {
   text-align: center;
 }
 
-.titulo-producto h1 {
+.tituloproducto h1 {
   color: #fff;
   display: flex;
   justify-content: center;
@@ -358,13 +376,6 @@ header {
 /* contacto */
 .contact label {
   color: #fff;
-}
-
-.contact h1 {
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  font-size: 40px;
 }
 
 .contact a {
@@ -381,15 +392,8 @@ header {
   justify-content: center;
 }
 
-.contact  {
-  display: grid;
-  padding: 20px;
-  gap: 20px;
-}
-
-
 /* login */
-.titulo-login h1 {
+.titulologin h1 {
   display: flex;
   justify-content: center;
   margin-top: 40px;
