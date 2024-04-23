@@ -159,7 +159,7 @@ header {
 }
 
 /* cards index */
-.cardcontainer {
+.card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 20px;
@@ -380,6 +380,13 @@ header {
   display: flex;
   justify-content: center;
 }
+
+.contact  {
+  display: grid;
+  padding: 20px;
+  gap: 20px;
+}
+
 
 /* login */
 .titulo-login h1 {
