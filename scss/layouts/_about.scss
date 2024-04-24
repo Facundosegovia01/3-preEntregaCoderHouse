@@ -1,5 +1,6 @@
 
 
+// titulo
 .info h1 {
     display: flex;
     justify-content: center;
@@ -17,7 +18,17 @@
 
 .card-text p {
     color: #000;
+    text-align: center;
         
+}
+// testimonios
+.titulo-testimonios h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    color: black;
+    font-size: 60px;
+    text-align: center;
 }
 
 // gif+info 
