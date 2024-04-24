@@ -1,12 +1,14 @@
 
 
 // titulo
+
 .info h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
     margin-top: 100px;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 50px;
     text-align: center;
 }
@@ -26,8 +28,9 @@
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-    color: black;
-    font-size: 60px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -44,7 +47,7 @@
     color: white; } 
 
     .about div{
-    width: 70%;
+    width: 60%;
     text-align: center;
     }
 
