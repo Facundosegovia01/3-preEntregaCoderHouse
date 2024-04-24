@@ -1,22 +1,28 @@
-.titulo-index h2 {
+
+.titulo-index h1 {
     display: flex;
     justify-content:center;
-margin-top: 100px;
+margin-top: 40px;
 margin-bottom: 50px;
-font-size: 50px;
+font-size: 35px;
 color: #fff;
 }
+.titulo-index h2 {
+    display: flex;
+    justify-content:center ;
+margin-top: 40px;
+margin-bottom: 50px;
+font-size: 30px;
+color: #fff;
+}
+
 .titulo-index p {
     display: flex;
     font-size: 20px;
     justify-content: flex-start;
     margin-top: 20px;
 }
-.titulo-index h2:hover {
-    transform:scale(0.6);
-    transition: 0.5s;
 
-}
  /* card vende tu auto */
 .cambia-vende {
 display: grid;
@@ -211,7 +217,7 @@ gap: 20px;
 .financia .art-financia p {
     line-height: 1.5;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 50px;
 }
 
@@ -236,3 +242,34 @@ gap: 20px;
 justify-content: center;
 }
 
+.iframe {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.ubicanos-titulo  h3 {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.nuestrosAutos h3 {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    font-size: 50px;
+    color: #fff;
+
+}
+
+.iframe-muestra-auto {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
