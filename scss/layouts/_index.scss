@@ -33,15 +33,17 @@
         border-radius: 6px;
     }
     
-    .encabezado-index a:hover {
-        background-color: black;
+    .encabezado-index a
+    {&:hover {
+        background-color: #948979;
         color: white;
     }
+}
 
     .razonesParaElegirnos h2 {
         text-align: center;
         padding: 20px;
-        background-color: black;
+        background-color: #948979;
         color: white;
         font-size: 60px;
     margin-bottom: 100px;
@@ -62,10 +64,17 @@
     align-items: center;
     border-radius: 6px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #DFD0B8;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
+}
+.cardsInfoAuto h3 { 
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .cardsInfoAuto img {
@@ -82,7 +91,7 @@
 
 .cardsInfoAuto div {
     padding: 20px;
-    background-color: #fff;
+    background-color: #DFD0B8 ;
 }
 
 
@@ -128,7 +137,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(45, 45, 167);
+    background-color: #153448;
     cursor: default;
     overflow: hidden;
     }
@@ -137,7 +146,7 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background-color: rgb(45, 45, 167);
+    background-color: #153448;
     cursor: default;
 }
 
@@ -208,8 +217,7 @@
 .masSobreNuestrosAutos h2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
-    background-color:black;
+    background-color:#948979;
     color: white;
     font-size: 60px;
     text-align: center;
@@ -217,7 +225,7 @@
 
 
 .visitaSede h3   {
-    background-color: black;
+    background-color: #948979;
     color: white;
     font-size: 60px;
     text-align: center;
@@ -245,9 +253,13 @@
     transition: all 0.3s ease;
   }
   
-  .cta:hover svg {
+  .cta
+  {
+
+  &:hover svg {
     transform: translateX(0);
-  }
+    
+  }}
   
   .cta:active svg {
     transform: scale(0.9);
@@ -271,11 +283,13 @@
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
-  
-  .cta:hover .hover-underline-animation:after {
+
+.cta .hover-underline-animation:after {
+
+    &:hover {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-  
+}
 
-  
+

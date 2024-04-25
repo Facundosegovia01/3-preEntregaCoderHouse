@@ -6,8 +6,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-    margin-top: 100px;
-    background-color: black;
+    background-color: #948979;
     color: white;
     font-size: 50px;
     text-align: center;
@@ -27,8 +26,8 @@
 .titulo-testimonios h2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
-    background-color: black;
+    
+    background-color: #948979;
     color: white;
     font-size: 50px;
     text-align: center;
@@ -64,7 +63,10 @@
             overflow: hidden;
             border-radius: 6px;
     }
-    .about a:hover {
+    .about a { 
+        
+        &hover {
         background-color: white;
         color: black
     }
+}

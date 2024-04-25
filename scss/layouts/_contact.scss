@@ -4,25 +4,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #948979;
+    color: white;
 }
 
 .titulo-contactanos h1 {
-    color: black;
+    color: $color-blanco;
     font-size: 50px;
     margin-bottom: 20px;
 }
 
 // contacto forms
-.orange {
-    color: #ff7a01;
-}
-
 .form-container {
     max-width: 700px;
     margin: 30px;
-    background-color: #001925;
+    background-color: $color-azul-cremita-oscuro;
     padding: 30px;
-    border-left: 5px solid #ff7a01;
+    border-left: 5px solid #DFD0B8;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
 }
 
@@ -37,7 +35,7 @@
 .form-container .formContact .input {
     color: #87a4b6;
     width: 100%;
-    background-color: #002733;
+    background-color: #153448;
     border: none;
     outline: none;
     padding: 10px;
@@ -48,7 +46,7 @@
 }
 
 .form-container .formContact .input:focus {
-    border-left: 5px solid #ff7a01;
+    border-left: 5px solid #DFD0B8;
 }
 
 .form-container .formContact .textarea {
@@ -56,8 +54,8 @@
     padding: 10px;
     border: none;
     outline: none;
-    background-color: #013747;
-    color: #ff7a01;
+    background-color: #153448;
+    color: #DFD0B8;
     font-weight: bold;
     resize: none;
     max-height: 150px;
@@ -67,7 +65,7 @@
 }
 
 .form-container .formContact .textarea:focus {
-    border-left: 5px solid #ff7a01;
+    border-left: 5px solid #DFD0B8;
 }
 
 .form-container .formContact .button-container {
@@ -77,23 +75,26 @@
 
 .form-container .formContact .button-container .send-button {
     flex-basis: 70%;
-    background: #ff7a01;
+    background: #DFD0B8;
     padding: 10px;
-    color: #001925;
+    color: #153448;
     text-align: center;
     font-weight: bold;
     border: 1px solid transparent;
     transition: all 0.2s ease-in-out;
 }
 
-.form-container .formContact .button-container .send-button:hover {
-    background: transparent;
-    border: 1px solid #ff7a01;
-    color: #ff7a01;
+.form-container .formContact .button-container .send-button {
+
+    &:hover {
+        background: transparent;
+        border: 1px solid #DFD0B8;
+        color: #DFD0B8;
+    }
 }
 
 .form-container .formContact .button-container .reset-button-container {
-    filter: drop-shadow(1px 1px 0px #ff7a01);
+    filter: drop-shadow(1px 1px 0px #DFD0B8);
     flex-basis: 30%;
 }
 
@@ -101,16 +102,18 @@
     position: relative;
     text-align: center;
     padding: 10px;
-    color: #ff7a01;
+    color: #DFD0B8;
     font-weight: bold;
-    background: #001925;
+    background: #153448;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
     transition: all 0.2s ease-in-out;
 }
 
-.form-container .formContact .button-container .reset-button-container .reset-button:hover {
-    background: #ff7a01;
-    color: #001925;
+.form-container .formContact .button-container .reset-button-container .reset-button {
+    &:hover {
+        background: #DFD0B8;
+        color: #153448;
+    }
 }
 
 .form-section {
@@ -121,7 +124,7 @@
 
 // mapa 
 .titulo-ubicanos {
-    background-color: #002733;
+    background-color: #153448;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +132,7 @@
 }
 
 .titulo-ubicanos h3 {
-    background-color: #002733;
+    background-color: #153448;
     color: white;
     font-size: 50px;
     margin-bottom: 20px;
@@ -141,7 +144,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #002733;  
+    background-color: #153448;
 
 }
 
@@ -170,27 +173,38 @@
 }
 
 /* instagram*/
-.containerOne:hover {
-    background-color: #d62976;
-    transition-duration: .3s;
+.containerOne {
+
+    &:hover {
+        background-color: #d62976;
+        transition-duration: .3s;
+    }
 }
 
 /* twitter*/
-.containerTwo:hover {
-    background-color: #00acee;
-    transition-duration: .3s;
+.containerTwo {
+    &:hover {
+        background-color: #00acee;
+        transition-duration: .3s;
+    }
 }
 
 /* linkdin*/
-.containerThree:hover {
-    background-color: #0072b1;
-    transition-duration: .3s;
+.containerThree {
+
+    &:hover {
+        background-color: #0072b1;
+        transition-duration: .3s;
+    }
+
 }
 
 /* Whatsapp*/
-.containerFour:hover {
-    background-color: #128C7E;
-    transition-duration: .3s;
+.containerFour {
+    &:hover {
+        background-color: #128C7E;
+        transition-duration: .3s;
+    }
 }
 
 .socialContainer:active {
@@ -206,8 +220,11 @@
     fill: rgb(255, 255, 255);
 }
 
-.socialContainer:hover .socialSvg {
-    animation: slide-in-top 0.3s both;
+.socialContainer .socialSvg {
+
+    &:hover {
+        animation: slide-in-top 0.3s both;
+    }
 }
 
 @keyframes slide-in-top {
