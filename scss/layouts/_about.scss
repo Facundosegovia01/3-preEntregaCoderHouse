@@ -1,71 +1,75 @@
-
+// titulo
 
 // titulo
 
-.info h1 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-    background-color: #948979;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-}
-.info p {
-    padding: 20px;
-    text-align: center;
-    
+.info {
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        background-color: #948979;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    p {
+        padding: 20px;
+        text-align: center;
+    }
 }
 
 .card-text p {
     color: #000;
     text-align: center;
-        
 }
+
 // testimonios
+
 .titulo-testimonios h2 {
     display: flex;
     justify-content: center;
-    
     background-color: #948979;
     color: white;
     font-size: 50px;
     text-align: center;
 }
 
-// gif+info 
+// gif+info
 
-.about{
+.about {
     height: 400px;
     background: url('../img/probando.gif');
     background-size: cover;
     padding: 20px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    color: white; } 
+    color: white;
 
-    .about div{
-    width: 60%;
-    text-align: center;
+    div {
+        width: 60%;
+        text-align: center;
     }
 
-    .about a {
-            text-decoration: none;
-            display: inline-block;
-            padding: 10px;
-            margin-top: 10px;
-            color: white;
-            border: 1px solid white;
-            border-radius: 4px;
-            transition: all 400ms ease;
-            cursor: default ;
-            overflow: hidden;
-            border-radius: 6px;
+    a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        margin-top: 10px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        transition: all 400ms ease;
+        cursor: default;
+        overflow: hidden;
+        border-radius: 6px;
     }
-    .about a { 
-        
-        &hover {
+}
+
+.about a {
+
+    &hover {
         background-color: white;
         color: black
     }

@@ -1,46 +1,38 @@
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url(../fuente/static/OpenSans-Bold.ttf);
-    font-weight: bold;
-    font-size: bold;
-}
-.body {
-font-family: 'Open Sans';
-    background-color: #ffffff83;
-}
-h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p
-{
-    color:#ffff;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #ffff;
     margin: 0;
     padding: 0;
 }
 
 /* media queries */
 
-@media (max-width: 992px)  
-{
-    .img-cambia-vende img{
+@media (max-width: 992px) {
+
+    .img-cambia-vende img,
+    .img-financia img,
+    .img-card-about img {
         display: none;
     }
-.img-financia img{
-    display: none;
-}
-.img-card-about img{
-    display: none;
 
-}
-.iframe-muestra-auto {
-    flex-direction: column;
-    overflow: hidden;
-    cursor: default;
-    gap: 20px;
-}
-.iframe-muestra-auto iframe{
-    display: flex;
-    width: 100%;
-}
-.ubicanos {
-    overflow: hidden;
-}
+    .iframe-muestra-auto {
+        flex-direction: column;
+        overflow: hidden;
+        cursor: default;
+        gap: 20px;
+
+        iframe {
+            display: flex;
+            width: 100%;
+        }
+    }
+
+    .ubicanos {
+        overflow: hidden;
+    }
 }

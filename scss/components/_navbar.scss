@@ -22,10 +22,10 @@ header {
 
 .carousel-item {
     height: 350px;
-}
 
-.carousel-item.active {
-    height: 350px;
+    &.active {
+        height: 350px;
+    }
 }
 
 .carousel img {

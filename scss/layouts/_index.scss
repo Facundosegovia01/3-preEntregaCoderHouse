@@ -7,47 +7,49 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;}
+    color: #fff;
+}
 
 .encabezado-index p {
-    font-size: 20px; 
+    font-size: 20px;
     text-align: center;
 }
 
 .encabezado-index h1 {
     font-size: 50px;
-    padding: 20px 0 ;
-    text-align: center;}
+    padding: 20px 0;
+    text-align: center;
+}
 
-    .encabezado-index a {
-        text-decoration: none;
-        display: inline-block;
-        padding: 10px;
-        margin-top: 10px;
-        color: white;
-        border: 1px solid white;
-        border-radius: 4px;
-        transition: all 400ms ease;
-        cursor: default ;
-        overflow: hidden;
-        border-radius: 6px;
-    }
-    
-    .encabezado-index a
-    {&:hover {
+.encabezado-index a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    cursor: default;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.encabezado-index a {
+    &:hover {
         background-color: #948979;
         color: white;
     }
 }
 
-    .razonesParaElegirnos h2 {
-        text-align: center;
-        padding: 20px;
-        background-color: #948979;
-        color: white;
-        font-size: 60px;
+.razonesParaElegirnos h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: #948979;
+    color: white;
+    font-size: 60px;
     margin-bottom: 100px;
-    }
+}
 
 
 /* por que elegirnos */
@@ -65,11 +67,12 @@
     border-radius: 6px;
     overflow: hidden;
     background-color: #DFD0B8;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
 }
-.cardsInfoAuto h3 { 
+
+.cardsInfoAuto h3 {
     text-align: center;
     font-size: 60px;
     color: black;
@@ -82,16 +85,17 @@
     height: 210px;
     object-fit: cover;
 }
+
 .cardsInfoAuto iframe {
     width: 100%;
     height: 210px;
     object-fit: cover;
-    
+
 }
 
 .cardsInfoAuto div {
     padding: 20px;
-    background-color: #DFD0B8 ;
+    background-color: #DFD0B8;
 }
 
 
@@ -100,47 +104,55 @@
     padding: 15px;
     text-align: center;
 }
+
 .cardsInfoAuto .contenido-card p {
     line-height: 1.5;
-    color: #6a6a6a; }
+    color: #6a6a6a;
+}
 
-    .cardsInfoAuto .contenido-card h3 {
-        font-weight: 400px;
-        margin-bottom: 15px;
-    }
-    .cardsInfoAuto .contenido-card a {
-        text-decoration: none;
-        display: inline-block;
-        padding: 10px;
-        margin-top: 10px;
-        color: black;
-        border: 1px solid black;
-        border-radius: 4px;
-        transition: all 400ms ease;
-    }
+.cardsInfoAuto .contenido-card h3 {
+    font-weight: 400px;
+    margin-bottom: 15px;
+}
 
-    .cardsInfoAuto .contenido-card a:hover {
+.cardsInfoAuto .contenido-card a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.cardsInfoAuto .contenido-card a:hover {
     background-color: black;
     color: white;
-    }
-    .cardsInfoAuto:hover {
-        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-        transform: translateY(-3%); }
-    .cardsInfoAuto .contenido-card h3 {
-        font-size: 30px;
-        color: black;
-    }
+}
+
+.cardsInfoAuto:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.cardsInfoAuto .contenido-card h3 {
+    font-size: 30px;
+    color: black;
+}
 
 
-    // cambia vende
-.cambia-vende , .img-cambia-vende {
+// cambia vende
+.cambia-vende,
+.img-cambia-vende {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #153448;
     cursor: default;
     overflow: hidden;
-    }
+}
+
 .art-cambia-vende {
     display: flex;
     flex-direction: column;
@@ -172,7 +184,7 @@
     color: white;
 }
 
-.cambia-vende .art-cambia-vende{
+.cambia-vende .art-cambia-vende {
     padding: 15px;
     text-align: center;
 }
@@ -185,7 +197,7 @@
 
 .cambia-vende .art-cambia-vende p {
     line-height: 1.5;
-    color:white;
+    color: white;
     font-size: 25px;
     margin-bottom: 50px;
 }
@@ -217,14 +229,14 @@
 .masSobreNuestrosAutos h2 {
     display: flex;
     justify-content: center;
-    background-color:#948979;
+    background-color: #948979;
     color: white;
     font-size: 60px;
     text-align: center;
 }
 
 
-.visitaSede h3   {
+.visitaSede h3 {
     background-color: #948979;
     color: white;
     font-size: 60px;
@@ -238,7 +250,8 @@
 .cta {
     border: none;
     background: none;
-    cursor: pointer; }
+    cursor: pointer;
+}
 
 .cta span {
     padding-bottom: 7px;
@@ -246,32 +259,32 @@
     font-size: 14px;
     padding-right: 15px;
     text-transform: uppercase;
-  }
-  
-  .cta svg {
+}
+
+.cta svg {
     transform: translateX(-8px);
     transition: all 0.3s ease;
-  }
-  
-  .cta
-  {
+}
 
-  &:hover svg {
-    transform: translateX(0);
-    
-  }}
-  
-  .cta:active svg {
+.cta {
+
+    &:hover svg {
+        transform: translateX(0);
+
+    }
+}
+
+.cta:active svg {
     transform: scale(0.9);
-  }
-  
-  .hover-underline-animation {
+}
+
+.hover-underline-animation {
     position: relative;
     color: black;
     padding-bottom: 20px;
-  }
-  
-  .hover-underline-animation:after {
+}
+
+.hover-underline-animation:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -282,14 +295,12 @@
     background-color: #000000;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
+}
 
 .cta .hover-underline-animation:after {
 
     &:hover {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
 }
-
-

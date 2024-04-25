@@ -5,3 +5,14 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fuente/static/OpenSans-Bold.ttf);
+    font-weight: bold;
+    font-size: bold;
+}
+.body {
+font-family: 'Open Sans';
+    background-color: #ffffff83;
+}
