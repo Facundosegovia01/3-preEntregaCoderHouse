@@ -7,18 +7,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
 }
 
-.encabezado-index p {
-    font-size: 20px;
-    text-align: center;
-}
 
 .encabezado-index h1 {
     font-size: 50px;
     padding: 20px 0;
     text-align: center;
+    background-color: #948979bb;
+    color: black;
+}
+
+.encabezado-index p {
+    font-size: 20px;
+    text-align: center;
+    background-color: #948979bb;
+    color: black;
 }
 
 .encabezado-index a {
@@ -46,7 +50,7 @@
     text-align: center;
     padding: 20px;
     background-color: #948979;
-    color: white;
+    color: black;
     font-size: 60px;
     margin-bottom: 100px;
 }
@@ -204,6 +208,14 @@
 
 /* card financia */
 
+.card-title {
+    font-size: 50px;
+    text-align: center;
+}
+.card-text {
+    color: black;
+    font-size: 30px;
+}
 
 .financia-boton a {
     text-decoration: none;
@@ -230,7 +242,7 @@
     display: flex;
     justify-content: center;
     background-color: #948979;
-    color: white;
+    color: black;
     font-size: 60px;
     text-align: center;
 }
