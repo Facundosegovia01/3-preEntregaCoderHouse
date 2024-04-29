@@ -107,13 +107,12 @@ footer {
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  object-fit: cover;
 }
 
 .encabezado-index {
-  background-image: url(../img/encabezado.jpg);
+  background-image: url(../img/encabezado.avif);
   background-size: cover;
-  height: 800px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
