@@ -259,9 +259,11 @@
 
 // animacioes card 
 .cta {
-    border: none;
-    background: none;
+    background-color: #948979;
     cursor: pointer;
+    border: 1px solid white;
+    border-radius: 6px;
+
 }
 
 .cta span {
@@ -271,6 +273,7 @@
     padding-right: 15px;
     text-transform: uppercase;
 }
+
 
 .cta svg {
     transform: translateX(-8px);

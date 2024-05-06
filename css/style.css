@@ -379,9 +379,10 @@ img {
 }
 
 .cta {
-  border: none;
-  background: none;
+  background-color: #948979;
   cursor: pointer;
+  border: 1px solid white;
+  border-radius: 6px;
 }
 
 .cta span {
@@ -775,15 +776,12 @@ img {
     opacity: 1;
   }
 }
-.color-login {
-  background-color: #001925;
-}
-
 .titulo-login h1 {
   display: flex;
   justify-content: center;
-  color: white;
+  color: black;
   font-size: 50px;
+  margin-top: 20px;
 }
 
 .login {
@@ -793,7 +791,6 @@ img {
   justify-content: center;
   min-height: 100vh;
   background-size: cover;
-  background-color: #001925;
 }
 
 .form_container {
@@ -805,7 +802,7 @@ img {
   justify-content: center;
   gap: 15px;
   padding: 50px 40px 20px 40px;
-  background-color: #ffffff;
+  background-color: #948979;
   box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01), 0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09), 0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 11px;
   font-family: "Inter", sans-serif;
@@ -823,7 +820,7 @@ img {
   margin: 0;
   font-size: 1.25rem;
   font-weight: 700;
-  color: #212121;
+  color: #f5f5f5;
 }
 
 .subtitle {
@@ -831,7 +828,7 @@ img {
   max-width: 80%;
   text-align: center;
   line-height: 1.1rem;
-  color: #8B8E98;
+  color: #f5f5f5;
 }
 
 .input_container {
@@ -853,7 +850,7 @@ img {
 
 .input_label {
   font-size: 0.75rem;
-  color: #8B8E98;
+  color: #f5f5f5;
   font-weight: 600;
 }
 
@@ -867,11 +864,6 @@ img {
   filter: drop-shadow(0px 1px 0px #efefef) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
   transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
 }
-.input_field:focus {
-  border: 1px solid transparent;
-  box-shadow: 0px 0px 0px 2px #242424;
-  background-color: transparent;
-}
 
 .sign-in_btn {
   width: 100%;
@@ -880,7 +872,7 @@ img {
   background: #115DFC;
   border-radius: 7px;
   outline: none;
-  color: #ffffff;
+  color: #f5f5f5;
   cursor: pointer;
 }
 
@@ -891,7 +883,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background: #ffffff;
+  background: #f5f5f5;
   border-radius: 7px;
   outline: none;
   color: #242424;
@@ -929,12 +921,12 @@ img {
   width: 100%;
   height: 1px;
   border: 0;
-  background-color: #e8e8e8;
+  background-color: #f5f5f5;
 }
 
 .note {
   font-size: 0.75rem;
-  color: #8B8E98;
+  color: #f5f5f5;
   text-decoration: underline;
 }
 
